@@ -1,0 +1,39 @@
+* {
+    background-color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    width: 606px;
+    height: 606px;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}
+
+.mole {
+    background: url('/images/mole.jpg');
+    background-size: cover;
+}
+
+button {
+    margin-bottom: 20px;
+    background-color: lightcyan;
+    padding: 0.8rem;
+    width: 100px;
+    border-radius: 10px;
+    background: lightcyan;
+    outline: none;
+    border-color: lightcyan;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
